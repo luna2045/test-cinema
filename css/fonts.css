@@ -1,0 +1,73 @@
+@font-face {
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+@font-face {
+    src: url(../fonts/Roboto-Medium.ttf);
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+@font-face {
+    src: url(../fonts/Montserrat-Bold.ttf);
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+@font-face {
+    src: url(../fonts/Montserrat-Regular.ttf);
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+@font-face {
+    src: url(../fonts/Comfortaa-Bold.ttf);
+    font-family: 'Comfortaa';
+    font-weight: 700;
+}
+@font-face {
+    src: url(../fonts/Comfortaa-Regular.ttf);
+    font-family: 'Comfortaa';
+    font-weight: 400;
+}
+
+@font-face {
+    src: url(../fonts/Webfonts/fa-regular-400.ttf);
+    font-family: 'FontAwesome';
+    font-weight: 400;
+}
+
+@font-face {
+    src: url(../fonts/Webfonts/fa-duotone-900.ttf);
+    font-family: 'FontAwesome';
+    font-weight: 900;
+}
+
+.far{
+    font-family: 'FontAwesome';
+    font-weight: 400;
+}
+
+.fa-film::before{
+    content: '\f008';
+    display: block;
+    font-style: normal;
+}
+
+.fad{
+    font-family: 'FontAwesome';
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+    
+}
+
+.fa-play::before{
+    content: '\f04b';
+    position: absolute
+}
+
+.fa-play::after{
+    content: '\10f04b';
+    color: rgba(255, 255, 255, 0.5);
+}

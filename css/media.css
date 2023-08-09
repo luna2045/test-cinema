@@ -1,0 +1,159 @@
+@media(prefers-color-sceme: dark){
+    :root{
+        --white: black;
+        --black: white;
+    }
+}
+
+@media (max-width: 1090px) {
+    .films__catalog{
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+    
+    .films__item{
+        width: 49%;
+    }
+    
+    .collection__catalog{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+    
+    .collection__iteam{
+        width: 60%;
+        max-width: none;
+        height: 250px;
+    }
+    
+    .collection__iteam::after{
+        background-size: 95% 90%;
+    }
+}
+
+@media (max-width: 768px){
+    .header__nav .container{
+        flex-direction: column;
+    }
+    
+    .header__nav-link-padding{
+        padding: 20px 6px;
+    }
+    
+    .header__nav{
+        padding-top: 20px;
+    }
+    
+    .header__title{
+        font-size: 50px;
+    }
+    
+    .collection__iteam{
+        height: 200px;
+    }
+    
+    .collection__iteam::after{
+        display: none;
+    }
+    
+    .series__item:nth-child(2){
+        grid-column: 2/-1;
+    }
+    
+    .series__item:nth-child(3){
+        grid-column: 2/-1;
+    }
+    
+    .series__item:nth-child(5){
+        grid-column: 2/-1;
+    }
+    
+    .footer .container{
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .footer__title{
+        text-align: center;
+    }
+    
+    .intro{
+        min-height: 500px;
+    }
+}
+
+@media (max-width: 576px){
+    .films__item{
+        width: 100%;
+    }
+    
+    .collection__iteam{
+        width: 100%;
+    }
+    
+    .series__item:nth-child(-n+5){
+        grid-column: 1/-1;
+    }
+}
+
+@media (max-width:500px) {
+    .header__title{
+        font-size: 31px;
+    }
+    
+    .header__text{
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    
+    .intro{
+        min-height: 350px;
+    }
+    
+    .films{
+        padding: 30px 0;
+    }
+    
+    .section__title{
+        margin: 0 auto;
+    }
+    
+    .widow{
+        padding: 40px 0 40px;
+    background: linear-gradient(90deg, #DEF7FF 0%, #F4FCFF -57%, rgba(255, 255, 255, 0.00) 100%);
+    }
+    
+    .widow__text{
+        margin: 25px 0;
+    }
+    
+    .series__poster-text{
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-align: center;
+    }
+    
+    .series__poster-title{
+        font-size: 30px;
+    }
+    
+    .series__poster{
+        padding: 10px;
+    }
+    
+    .header__nav-list{
+        gap: 15px;
+    }
+}
+
+/* 1300 */
+/* 1200 */
+/* 992 */
+/* 768 */
+/* 576 */
+/* 320px */
+
+/* минимальный 320 пиксель */
